@@ -14,7 +14,7 @@ $(document).ready(function() {
 
           if (random > targetNumber)
             alert("you lose");
-          }
+          });
 
        
 
