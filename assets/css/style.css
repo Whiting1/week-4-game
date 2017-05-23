@@ -1,0 +1,64 @@
+body {
+
+	background-color: white !important
+	width: 95%;
+
+
+
+}
+
+#headerOne {
+
+	font-family: 'Aladin', cursive;
+	color: #4F4A57;
+	font-size: 50px;
+
+}
+
+.container-fluid {
+
+	width: 80%;
+    margin-top:90px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+
+.img {
+    position: relative;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 10px;
+    background-color:#A38282 !important   
+
+}
+
+#controlJumbo{
+
+	font-family: 'Aladin', cursive; 
+	background-color: magenta;               
+
+
+}
+
+#controlJumbo h1 {
+
+	font-size: 44px;
+		 	
+}
+
+#myButtons {
+
+	margin-top: 2%;
+
+}

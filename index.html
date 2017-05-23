@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Crystals Game - GTA style </title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>			
+	
+	<h1 id = "headerOne"> Thefter Collector! </h1>
+	
+	<div id="controlJumbo">
+		<div class="jumbotron"> 
+			<h1>Instructions</h1>    
+			 <li> Read the conditions to win </li>
+	  		 <li> Click a Grand Theft Auto IV character </li> 	
+	  		 <br>
+	 		 <dl>
+	    		<dt>To Win:</dt>
+	    			<dd>Pick Franklin, Michael, Trevor, or Lester</dd>
+	    			<dd>Everytime you pick a score is given, that score most total to 50 points to win the game</dd>
+	    		<br>
+	    		<dt>To Lose:</dt>
+	  		  		<dd>You must score exactly 50p points to win, if you go over that score you lose the game</dd>
+	  		</dl>  
+	  	</div>
+
+	
+	</div>
+
+	<div id="myButtons" class="container-fluid">
+
+
+
+			<button id="Franklin" class="btn btn-lg btn-success col-md-3">
+	     	<img class="img" src="assets\images\franklin.jpg" width="25%" /> <br><br><strong>Franklin</strong>
+			</button>
+
+			<button id="Michael" class="btn btn-lg btn-primary col-md-3 ">
+	     	<img class="img" src="assets\images\michael.jpg" width="25%" /> <br><br><strong>Michael</strong>
+			</button>
+
+			<button id="Trevor" class="btn btn-lg btn-warning col-md-3 ">
+	     	<img class="img" src="assets\images\trevor.png" width="25%" /> <br><br><strong>Trevor</strong>
+			</button>
+
+			<button id="Lester" class="btn btn-lg btn-danger col-md-3 ">
+	     	<img class="img" src="assets\images\lester.jpg" width="25%" /> <br><br><strong>Lester</strong>
+			</button>
+	</div>
+<br> <br>
+	<div>
+		<div> Current Score: <span id = "score"></span></div>
+		<br>
+		<div> Wins: <span id ="Wins"></span></div>
+		<br>
+		<div> Losses: <span id= "Losses"></span> </div>
+		<br>
+		<div> Total Games: <span id= "Totalwins""></span> </div>
+	</div>
+
+</body>
+
+</html>
+
+
+
+
+
+
